@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ftp-common
+
+ftp:
+  ftpHost: 192.168.11.135
+  username: ${FTP_USERNAME:myuser}
+  password: ${FTP_PASSWORD:mypass}
+  port: ${FTP_PORT:21}
+  cloudDir: ${FTP_LOCALDIR:/home/test}
+
+
